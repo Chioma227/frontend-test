@@ -3,6 +3,7 @@ enum containerVariants {
   BLOCK,
   CONTAIN,
   WRAPPER,
+  DEFAULT,
   FLEX_BASE,
   FLEX_GAP_LG,
   TRANSPARENT,

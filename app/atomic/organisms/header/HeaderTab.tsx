@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '../../atoms/button/Button'
 import buttonVariants from '@/variants/buttonVariants'
 import Container from '../../atoms/container/Container'

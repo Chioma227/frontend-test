@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsDot } from "react-icons/bs";
 import Container from '../../atoms/container/Container'
 import IconText from '../../molecules/iconText/IconText'

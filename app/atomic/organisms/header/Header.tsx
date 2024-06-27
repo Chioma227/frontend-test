@@ -1,4 +1,3 @@
-import React from 'react'
 import HeaderTab from './HeaderTab';
 import Icon from '../../atoms/icon/Icon'
 import { GoChevronDown } from "react-icons/go";

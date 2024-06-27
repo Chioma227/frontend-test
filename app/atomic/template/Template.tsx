@@ -1,12 +1,20 @@
-import React from 'react'
 import Header from '../organisms/header/Header'
 import Preview from '../organisms/preview/Preview'
+import Container from '../atoms/container/Container'
+import containerVariants from '@/variants/containerVariants'
+import RightPanel from '../organisms/rightPanel/RightPanel'
+
 
 const Template = () => {
   return (
     <>
-      <Header/>
-      <Preview/>
+      <Header />
+      <Container variant={containerVariants.FLEX}>
+        <Preview />
+        <Container variant={containerVariants.CONTAIN} className='w-[300px] bg-blue50 border-l-2 border-l-gray'>
+          <RightPanel />
+        </Container>
+      </Container>
     </>
   )
 }

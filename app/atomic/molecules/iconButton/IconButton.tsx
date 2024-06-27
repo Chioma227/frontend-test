@@ -1,4 +1,3 @@
-import React from 'react'
 import Icon from '../../atoms/icon/Icon'
 import Button from '../../atoms/button/Button'
 import iconProps from '../../atoms/icon/iconProps'
@@ -18,7 +17,7 @@ const IconButton = (
     }: iconButtonProps) => {
     return (
         <Button {...button}>
-            <Container variant={containerVariants.FLEX_GAP_SM}>
+            <Container variant={containerVariants.FLEX_GAP_SM} className='w-full text-center'>
                 <Icon {...icon} />
                 {children}
             </Container>

@@ -2,6 +2,7 @@ enum typographyVariants{
     LG,
     MD,
     SM,
+    S,
     XS
 }
 

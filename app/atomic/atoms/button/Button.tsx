@@ -1,4 +1,3 @@
-import React from 'react'
 import clsx from 'clsx'
 import buttonVariants from '@/variants/buttonVariants'
 import buttonProps from './buttonProps'
@@ -11,11 +10,11 @@ const Button = ({className, variant, children}: buttonProps) => {
             
             break;
         case buttonVariants.DEFAULT_ROUNDED_MD:
-            style = clsx(className, "bg-theme text-white border border-2 border-opac rounded-[10px] w-fit w-fit px-[45px] py-[8px]")
+            style = clsx(className, "bg-theme text-white border border-2 border-opac rounded-[10px] w-[100px] text-center py-[8px]")
             
             break;
         case buttonVariants.OPAC:
-            style = clsx(className, "bg-opac100 text-theme border border-1 border-theme rounded-[9px] w-fit w-fit px-[45px] py-[8px]")
+            style = clsx(className, "bg-opac100 text-theme border border-1 border-theme rounded-[9px] w-[100px] text-center py-[8px]")
             
             break;
         case buttonVariants.TRANSPARENT:

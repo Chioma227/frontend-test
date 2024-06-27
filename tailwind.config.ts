@@ -11,7 +11,7 @@ const config: Config = {
       backgroundColor: {
         grey: "#888888",
         theme: "#DC4A2D",
-        blue50: "#E7E7E7",
+        blue50: "#e7e7e756",
         grey300: "#4F4F4F",
         grey100: "#B0B0B0",
         black100: "#5D5D5D",

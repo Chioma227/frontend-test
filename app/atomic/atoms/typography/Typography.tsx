@@ -1,5 +1,4 @@
 import clsx from 'clsx'
-import React from 'react'
 import typographyVariants from '@/variants/typographyVariants'
 import typoProps from './typoProps'
 
@@ -15,6 +14,9 @@ const Typography = ({children, variant, className}: typoProps) => {
             break;
         case typographyVariants.SM:
             style = clsx(className, "text-[15px]")
+            break;
+        case typographyVariants.S:
+            style = clsx(className, "text-[13px]")
             break;
         case typographyVariants.XS:
             style = clsx(className, "text-[10px]")

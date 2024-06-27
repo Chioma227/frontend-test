@@ -8,6 +8,9 @@ const Container = ({ children, variant, className }: containerProps) => {
     let style;
 
     switch (variant) {
+        case containerVariants.DEFAULT:
+            style = clsx(className, "")
+            break;
         case containerVariants.BLOCK:
             style = clsx(className, "block")
             break;
@@ -33,7 +36,7 @@ const Container = ({ children, variant, className }: containerProps) => {
             style = clsx(className, "flex items-center gap-[50px]")
             break;
         case containerVariants.FLEX_GAP_SM:
-            style = clsx(className, "flex items-center gap-[8px]")
+            style = clsx(className, "flex items-center gap-[6px] w-[fit-content")
             break;
         case containerVariants.FLEX_BETWEEN:
             style = clsx(className, "flex items-center justify-between")
