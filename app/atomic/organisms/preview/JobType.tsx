@@ -19,7 +19,7 @@ const JobType = () => {
                         Posted 2 days ago
                     </Typography>
                 </Container>
-                <Container variant={containerVariants.FLEX} className='gap-[10px] mt-[15px] items-center'>
+                <Container variant={containerVariants.FLEX} className='gap-[10px] mt-[19px] items-center'>
                         <IconText
                             icon={{ src: "marker-pin", alt: "marker-pin"  }}
                             typo={{ variant: typographyVariants.SM, className: "text-black100 font-medium" }}

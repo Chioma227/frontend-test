@@ -11,7 +11,7 @@ const Template = () => {
       <Header />
       <Container variant={containerVariants.FLEX}>
         <Preview />
-        <Container variant={containerVariants.CONTAIN} className='w-[300px] bg-blue50 border-l-2 border-l-gray'>
+        <Container variant={containerVariants.CONTAIN} className='w-fit px-[15px] bg-blue50 border-l-2 border-l-gray'>
           <RightPanel />
         </Container>
       </Container>

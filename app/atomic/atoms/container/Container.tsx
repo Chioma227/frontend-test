@@ -21,13 +21,13 @@ const Container = ({ children, variant, className }: containerProps) => {
             style = clsx(className, "w-fit")
             break;
         case containerVariants.WRAPPER:
-            style = clsx(className, "w-full px-[60px] py-[25px]")
+            style = clsx(className, "w-full px-[75px] py-[25px]")
             break;
         case containerVariants.FLEX_BASE:
             style = clsx(className, "flex items-baseline")
             break;
         case containerVariants.FLEX_GAP_LG:
-            style = clsx(className, "flex items-center gap-[50px]")
+            style = clsx(className, "flex items-center gap-[80px]")
             break;
         case containerVariants.FLEX_CENTER:
             style = clsx(className, "flex items-center justify-center")

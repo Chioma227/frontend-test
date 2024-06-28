@@ -7,7 +7,7 @@ const Typography = ({children, variant, className}: typoProps) => {
     let style;
     switch (variant) {
         case typographyVariants.LG:
-            style = clsx(className, "text-[25px]")
+            style = clsx(className, "text-[35px]")
             break;
         case typographyVariants.MD:
             style = clsx(className, "text-[20px]")
@@ -17,6 +17,9 @@ const Typography = ({children, variant, className}: typoProps) => {
             break;
         case typographyVariants.S:
             style = clsx(className, "text-[13px]")
+            break;
+        case typographyVariants.SX:
+            style = clsx(className, "text-[12px]")
             break;
         case typographyVariants.XS:
             style = clsx(className, "text-[10px]")

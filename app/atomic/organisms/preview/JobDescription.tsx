@@ -33,14 +33,6 @@ const JobDescription = () => {
                     <BsDot /><p>Provident Fund</p>
                 </Container>
             </Typography>
-            <Typography variant={typographyVariants.S}>
-                <Container variant={containerVariants.FLEX} className="mb-2">
-                    <BsDot /><p> Health Insurance</p>
-                </Container>
-                <Container variant={containerVariants.FLEX} className="mb-2">
-                    <BsDot /><p>Provident Fund</p>
-                </Container>
-            </Typography>
             <Typography variant={typographyVariants.S} className="mb-2">
                 Schedule:
             </Typography>

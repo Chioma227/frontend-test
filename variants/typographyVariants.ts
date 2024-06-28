@@ -3,6 +3,7 @@ enum typographyVariants{
     MD,
     SM,
     S,
+    SX,
     XS
 }
 
